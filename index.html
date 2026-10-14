@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="An interactive visual story about Australia's multicultural communities." />
+  <title>Many Stories, One Australia | Australian Multicultural Communities</title>
+
+  <!-- Vega-Lite is used later to render the charts inside the chart containers. -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#top" aria-label="Many Stories, One Australia home">
+        <span class="wordmark-mark" aria-hidden="true">M</span>
+        <span>MANY STORIES<span class="wordmark-light">, ONE AUSTRALIA</span></span>
+      </a>
+      <nav aria-label="Page sections">
+        <a href="#macro-shift">The shift</a>
+        <a href="#modern-mosaic">The mosaic</a>
+        <a href="#generational-bridge">Generations</a>
+        <a href="#cohesion">Cohesion</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> AUSTRALIAN MULTICULTURAL COMMUNITIES</p>
+        <h1>Many origins.<br /><em>One changing</em> Australia.</h1>
+        <p class="hero-intro">
+          Australia's cultural story is not static. It is shaped by migration, language,
+          ancestry and the everyday lives of communities across the country.
+        </p>
+        <a class="hero-link" href="#macro-shift">Explore the story <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-art" aria-label="Decorative abstract pattern representing a diverse population">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit orbit-three"></div>
+        <span class="art-dot dot-a"></span><span class="art-dot dot-b"></span>
+        <span class="art-dot dot-c"></span><span class="art-dot dot-d"></span>
+        <span class="art-dot dot-e"></span><span class="art-dot dot-f"></span>
+        <div class="art-caption"><span>01 / 04</span><span>A nation in motion</span></div>
+      </div>
+      <div class="hero-bottom">
+        <span>A VISUAL STORY IN FOUR CHAPTERS</span>
+        <span>DATA · PLACE · IDENTITY · BELONGING</span>
+      </div>
+    </section>
+
+    <section class="intro-strip">
+      <div class="intro-label">THE BIG PICTURE</div>
+      <p>
+        What does multicultural Australia look like over time—and how does that story
+        change when we look closer at places, generations and shared outcomes?
+      </p>
+    </section>
+
+    <!-- SECTION 1 -->
+    <section class="story-section section-macro" id="macro-shift">
+      <div class="section-heading">
+        <div class="section-index">01 <span>—</span> THE LONG VIEW</div>
+        <div class="section-title-wrap">
+          <h2>Macro shift</h2>
+          <p class="section-deck">
+            Australia's overseas-born population has changed in both composition and scale.
+            Start with the national picture: which origins have risen, and how has the balance
+            between world regions shifted over time?
+          </p>
+        </div>
+      </div>
+
+      <div class="chart-grid chart-grid-two">
+        <article class="chart-card chart-card-feature">
+          <div class="chart-card-top">
+            <span class="chart-number">CHART 01</span><span class="chart-type">BUMP CHART</span>
+          </div>
+          <h3>Changing origins, changing ranks</h3>
+          <p class="chart-question">How have the rankings of overseas-born populations changed over time?</p>
+          <div class="chart-container" id="chart-bump" role="img" aria-label="Bump chart placeholder">
+            <div class="chart-placeholder"><span class="placeholder-icon">↗</span><strong>Bump chart goes here</strong><small>Chart container ready for Vega-Lite</small></div>
+          </div>
+          <div class="chart-caption"><span>READ THE RANKS</span><span>01 / 10</span></div>
+        </article>
+
+        <article class="chart-card">
+          <div class="chart-card-top">
+            <span class="chart-number">CHART 02</span><span class="chart-type">STREAMGRAPH</span>
+          </div>
+          <h3>A shifting mix of world regions</h3>
+          <p class="chart-question">How has Australia's overseas-born population changed by world region?</p>
+          <div class="chart-container" id="chart-streamgraph" role="img" aria-label="Streamgraph placeholder">
+            <div class="chart-placeholder"><span class="placeholder-icon">≈</span><strong>Streamgraph goes here</strong><small>Chart container ready for Vega-Lite</small></div>
+          </div>
+          <div class="chart-caption"><span>READ THE FLOW</span><span>02 / 10</span></div>
+        </article>
+      </div>
+      <p class="section-takeaway"><span class="takeaway-mark">↳</span> The national timeline sets the context for the local patterns that follow.</p>
+    </section>
+
+    <!-- SECTION 2 -->
+    <section class="story-section section-mosaic" id="modern-mosaic">
+      <div class="section-heading">
+        <div class="section-index">02 <span>—</span> PLACE & PATTERN</div>
+        <div class="section-title-wrap">
+          <h2>Modern mosaic</h2>
+          <p class="section-deck">
+            National averages can hide local differences. Zoom in to see where languages
+            other than English are spoken at home, how selected language groups cluster,
+            and which countries of birth contribute most to Australia's overseas-born population.
+          </p>
+        </div>
+      </div>
+
+      <div class="chart-grid chart-grid-two">
+        <article class="chart-card chart-card-wide">
+          <div class="chart-card-top">
+            <span class="chart-number">CHART 03</span><span class="chart-type">CHOROPLETH MAP · MAP 1 OF 3</span>
+          </div>
+          <h3>Language across the landscape</h3>
+          <p class="chart-question">Which Australian areas have higher proportions of people speaking a language other than English at home?</p>
+          <div class="chart-container map-container" id="chart-choropleth" role="img" aria-label="Choropleth map placeholder">
+            <div class="chart-placeholder"><span class="placeholder-icon">⌖</span><strong>Choropleth map goes here</strong><small>Australian geographic data · Vega-Lite map</small></div>
+          </div>
+          <div class="chart-caption"><span>COMPARE LOCAL AREAS</span><span>03 / 10</span></div>
+        </article>
+
+        <article class="chart-card">
+          <div class="chart-card-top">
+            <span class="chart-number">CHART 04</span><span class="chart-type">DOT-DENSITY MAP · MAP 2 OF 3</span>
+          </div>
+          <h3>Where language communities gather</h3>
+          <p class="chart-question">Where are selected language groups concentrated geographically?</p>
+          <div class="chart-container map-container" id="chart-dot-density" role="img" aria-label="Dot-density map placeholder">
+            <div class="chart-placeholder"><span class="placeholder-icon">⠿</span><strong>Dot-density map goes here</strong><small>Dots will represent a selected population</small></div>
+          </div>
+          <div class="chart-caption"><span>SEE CONCENTRATION</span><span>04 / 10</span></div>
+        </article>
+
+        <article class="chart-card chart-card-feature">
+          <div class="chart-card-top">
+            <span class="chart-number">CHART 05</span><span class="chart-type">TREEMAP</span>
+          </div>
+          <h3>The biggest birthplaces</h3>
+          <p class="chart-question">Which countries of birth account for the largest overseas-born populations?</p>
+          <div class="chart-container" id="chart-treemap" role="img" aria-label="Treemap placeholder">
+            <div class="chart-placeholder"><span class="placeholder-icon">▦</span><strong>Treemap goes here</strong><small>Rectangle area will show population size</small></div>
+          </div>
+          <div class="chart-caption"><span>COMPARE POPULATION SIZE</span><span>05 / 10</span></div>
+        </article>
+
+        <article class="chart-card map-note-card">
+          <span class="note-kicker">A NOTE ON PLACE</span>
+          <h3>One country, many local stories.</h3>
+          <p>
+            Maps show where patterns occur; they do not explain those patterns on their own.
+            Read each map alongside its measure, geography and data source.
+          </p>
+          <div class="map-note-rule"></div>
+          <span class="note-foot">GEOGRAPHY IS PART OF THE STORY</span>
+        </article>
+      </div>
+      <p class="section-takeaway"><span class="takeaway-mark">↳</span> Place reveals the uneven geography behind Australia's national diversity.</p>
+    </section>
+
+    <!-- SECTION 3 -->
+    <section class="story-section section-generations" id="generational-bridge">
+      <div class="section-heading">
+        <div class="section-index">03 <span>—</span> FAMILY & IDENTITY</div>
+        <div class="section-title-wrap">
+          <h2>Generational bridge</h2>
+          <p class="section-deck">
+            Birthplace is only one part of identity. Ancestry and language can connect people
+            to family histories in different ways—and those connections may vary between generations.
+          </p>
+        </div>
+      </div>
+
+      <div class="chart-grid chart-grid-two">
+        <article class="chart-card">
+          <div class="chart-card-top">
+            <span class="chart-number">CHART 06</span><span class="chart-type">SANKEY / ALLUVIAL</span>
+          </div>
+          <h3>From family origins to ancestry</h3>
+          <p class="chart-question">How do parental birthplaces relate to reported ancestry?</p>
+          <div class="chart-container" id="chart-sankey" role="img" aria-label="Sankey or alluvial diagram placeholder">
+            <div class="chart-placeholder"><span class="placeholder-icon">⇢</span><strong>Sankey / alluvial diagram goes here</strong><small>Relationships between categories will flow across the chart</small></div>
+          </div>
+          <div class="chart-caption"><span>FOLLOW THE CONNECTIONS</span><span>06 / 10</span></div>
+        </article>
+
+        <article class="chart-card">
+          <div class="chart-card-top">
+            <span class="chart-number">CHART 07</span><span class="chart-type">100% STACKED BAR</span>
+          </div>
+          <h3>Language across age groups</h3>
+          <p class="chart-question">How does language use vary across age groups?</p>
+          <div class="chart-container" id="chart-language-age" role="img" aria-label="100 percent stacked bar chart placeholder">
+            <div class="chart-placeholder"><span class="placeholder-icon">▥</span><strong>100% stacked bar chart goes here</strong><small>Age-group data and a clear denominator needed</small></div>
+          </div>
+          <div class="chart-caption"><span>COMPARE PROPORTIONS</span><span>07 / 10</span></div>
+        </article>
+
+        <article class="chart-card chart-card-feature">
+          <div class="chart-card-top">
+            <span class="chart-number">CHART 08</span><span class="chart-type">RADAR CHART</span>
+          </div>
+          <h3>Participation and cultural life</h3>
+          <p class="chart-question">How does cultural participation differ across age groups?</p>
+          <div class="chart-container" id="chart-radar" role="img" aria-label="Radar chart placeholder">
+            <div class="chart-placeholder"><span class="placeholder-icon">✳</span><strong>Radar chart goes here</strong><small>Awaiting suitable survey data</small></div>
+          </div>
+          <div class="chart-caption"><span>COMPARE PARTICIPATION PROFILES</span><span>08 / 10</span></div>
+        </article>
+
+        <article class="chart-card quote-card">
+          <span class="quote-mark" aria-hidden="true">“</span>
+          <p>Identity can carry across generations, while the ways people express it can change.</p>
+          <span class="quote-rule"></span>
+          <span class="note-foot">BIRTHPLACE · ANCESTRY · LANGUAGE</span>
+        </article>
+      </div>
+      <p class="section-takeaway"><span class="takeaway-mark">↳</span> Family history, language and participation offer different lenses on cultural identity.</p>
+    </section>
+
+    <!-- SECTION 4 -->
+    <section class="story-section section-cohesion" id="cohesion">
+      <div class="section-heading">
+        <div class="section-index">04 <span>—</span> SHARED OUTCOMES</div>
+        <div class="section-title-wrap">
+          <h2>Cohesion</h2>
+          <p class="section-deck">
+            Diversity is one part of community life. This final chapter asks how it may relate
+            to social cohesion, and how settlement support and employment outcomes vary by location.
+            These comparisons require compatible measures and careful interpretation.
+          </p>
+        </div>
+      </div>
+
+      <div class="chart-grid chart-grid-two">
+        <article class="chart-card">
+          <div class="chart-card-top">
+            <span class="chart-number">CHART 09</span><span class="chart-type">SCATTERPLOT</span>
+          </div>
+          <h3>Diversity and social cohesion</h3>
+          <p class="chart-question">Is cultural diversity associated with social cohesion across geographical areas?</p>
+          <div class="chart-container" id="chart-cohesion" role="img" aria-label="Scatterplot placeholder">
+            <div class="chart-placeholder"><span class="placeholder-icon">⠿</span><strong>Scatterplot goes here</strong><small>Comparable area-level data required</small></div>
+          </div>
+          <div class="chart-caption"><span>LOOK FOR ASSOCIATION, NOT CAUSATION</span><span>09 / 10</span></div>
+        </article>
+
+        <article class="chart-card">
+          <div class="chart-card-top">
+            <span class="chart-number">CHART 10</span><span class="chart-type">PROPORTIONAL-SYMBOL MAP · MAP 3 OF 3</span>
+          </div>
+          <h3>Settlement support by location</h3>
+          <p class="chart-question">How does settlement funding vary across locations with different migrant employment outcomes?</p>
+          <div class="chart-container map-container" id="chart-settlement-map" role="img" aria-label="Proportional-symbol map placeholder">
+            <div class="chart-placeholder"><span class="placeholder-icon">◎</span><strong>Proportional-symbol map goes here</strong><small>Funding and employment datasets required</small></div>
+          </div>
+          <div class="chart-caption"><span>COMPARE SUPPORT & OUTCOMES</span><span>10 / 10</span></div>
+        </article>
+      </div>
+      <div class="closing-panel">
+        <span class="closing-eyebrow">THE STORY SO FAR</span>
+        <p>From national change to local patterns, from family origins to shared outcomes—multicultural Australia is best understood through more than one measure.</p>
+      </div>
+    </section>
+
+    <section class="sources-section" id="about">
+      <div>
+        <p class="eyebrow"><span class="eyebrow-line"></span> ABOUT THIS PROJECT</p>
+        <h2>Reading the data responsibly</h2>
+      </div>
+      <div class="sources-copy">
+        <p>
+          This visual story is being developed for FIT3179 Data Visualisation 2. Charts will be
+          built with Vega-Lite and supported by concise annotations, source notes and definitions.
+          Interpretations will distinguish observed patterns from explanations or causal claims.
+        </p>
+        <div class="metadata-grid">
+          <div><span>AUTHOR</span><strong>[Your name]</strong></div>
+          <div><span>LAST UPDATED</span><strong>October 2026</strong></div>
+          <div><span>VISUALISATION</span><strong>Vega-Lite</strong></div>
+        </div>
+        <p class="source-note">Dataset sources and links will be listed beside the relevant charts when the visualisations are added.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>MANY STORIES, ONE AUSTRALIA</span>
+    <span>FIT3179 · DATA VISUALISATION 2 · 2026</span>
+    <a href="#top">BACK TO TOP ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
