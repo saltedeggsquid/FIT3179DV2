@@ -1,0 +1,601 @@
+year,sacc_code,country_of_birth,estimated_resident_population,data_measure,source_table,source_release,rank_by_population
+1996,2102,England,956680,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+1996,1201,New Zealand,312240,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+1996,3104,Italy,250360,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+1996,5105,Vietnam,158740,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+1996,2105,Scotland,150110,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+1996,3207,Greece,138080,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+1996,2304,Germany,121910,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+1996,6101,China,118640,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+1996,5204,Philippines,104820,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+1996,2308,Netherlands,96370,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+1996,5203,Malaysia,82530,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+1996,7103,India,80470,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+1996,4208,Lebanon,77670,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+1996,6102,Hong Kong,75960,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+1996,3307,Poland,72420,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+1996,9225,South Africa,61810,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+1996,3204,Croatia,57640,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+1996,8104,USA,56050,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+1996,3105,Malta,55980,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+1996,7107,Sri Lanka,53880,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+1997,2102,England,950310,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+1997,1201,New Zealand,320660,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+1997,3104,Italy,246410,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+1997,5105,Vietnam,161910,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+1997,2105,Scotland,148850,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+1997,3207,Greece,136820,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+1997,6101,China,128820,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+1997,2304,Germany,121550,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+1997,5204,Philippines,106450,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+1997,2308,Netherlands,95770,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+1997,7103,India,83280,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+1997,5203,Malaysia,83240,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+1997,4208,Lebanon,78300,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+1997,6102,Hong Kong,77980,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+1997,3307,Poland,71360,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+1997,9225,South Africa,66130,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+1997,3204,Croatia,57730,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+1997,8104,USA,57630,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+1997,7107,Sri Lanka,55720,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+1997,3105,Malta,55060,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+1998,2102,England,943870,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+1998,1201,New Zealand,328280,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+1998,3104,Italy,242460,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+1998,5105,Vietnam,163020,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+1998,2105,Scotland,147250,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+1998,3207,Greece,135030,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+1998,6101,China,132080,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+1998,2304,Germany,120720,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+1998,5204,Philippines,107620,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+1998,2308,Netherlands,94860,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+1998,7103,India,84730,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+1998,5203,Malaysia,83440,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+1998,4208,Lebanon,78660,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+1998,6102,Hong Kong,77920,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+1998,3307,Poland,69910,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+1998,9225,South Africa,69370,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+1998,8104,USA,58400,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+1998,3204,Croatia,57650,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+1998,7107,Sri Lanka,56610,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+1998,3105,Malta,54210,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+1999,2102,England,937060,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+1999,1201,New Zealand,345660,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+1999,3104,Italy,238330,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+1999,5105,Vietnam,163800,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+1999,2105,Scotland,145390,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+1999,6101,China,138230,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+1999,3207,Greece,132900,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+1999,2304,Germany,119860,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+1999,5204,Philippines,110190,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+1999,2308,Netherlands,93780,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+1999,7103,India,86330,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+1999,5203,Malaysia,83840,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+1999,4208,Lebanon,78680,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+1999,6102,Hong Kong,76970,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+1999,9225,South Africa,74760,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+1999,3307,Poland,68430,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+1999,8104,USA,58850,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+1999,3204,Croatia,58030,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+1999,7107,Sri Lanka,57140,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+1999,5202,Indonesia,55810,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+2000,2102,England,931450,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2000,1201,New Zealand,365060,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2000,3104,Italy,234040,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2000,5105,Vietnam,163700,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2000,6101,China,144690,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2000,2105,Scotland,143650,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2000,3207,Greece,130780,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2000,2304,Germany,119040,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2000,5204,Philippines,112180,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2000,2308,Netherlands,92790,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2000,7103,India,90680,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2000,5203,Malaysia,84650,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2000,9225,South Africa,80650,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2000,4208,Lebanon,79070,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2000,6102,Hong Kong,75420,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2000,3307,Poland,66880,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2000,8104,USA,59690,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2000,5202,Indonesia,58650,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2000,3204,Croatia,58210,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2000,7107,Sri Lanka,58210,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2001,2102,England,927630,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2001,1201,New Zealand,389600,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2001,3104,Italy,229850,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2001,5105,Vietnam,163490,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2001,6101,China,153360,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2001,2105,Scotland,141850,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2001,3207,Greece,128700,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2001,2304,Germany,118340,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2001,5204,Philippines,114260,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2001,7103,India,98070,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2001,2308,Netherlands,91900,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2001,9225,South Africa,86820,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2001,5203,Malaysia,86400,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2001,4208,Lebanon,79850,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2001,6102,Hong Kong,73920,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2001,3307,Poland,65530,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2001,8104,USA,60780,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2001,7107,Sri Lanka,60640,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2001,3204,Croatia,58690,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2001,2201,Ireland,53650,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+2002,2102,England,922690,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2002,1201,New Zealand,402380,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2002,3104,Italy,227710,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2002,6101,China,169990,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2002,5105,Vietnam,166120,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2002,2105,Scotland,139190,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2002,3207,Greece,128870,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2002,2304,Germany,119470,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2002,5204,Philippines,118360,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2002,7103,India,108270,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2002,9225,South Africa,95140,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2002,2308,Netherlands,91840,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2002,5203,Malaysia,89190,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2002,4208,Lebanon,80970,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2002,6102,Hong Kong,75490,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2002,3307,Poland,64860,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2002,7107,Sri Lanka,63500,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2002,8104,USA,62890,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2002,3204,Croatia,61930,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2002,5202,Indonesia,57410,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+2003,2102,England,920680,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2003,1201,New Zealand,409500,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2003,3104,Italy,225360,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2003,6101,China,187450,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2003,5105,Vietnam,169720,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2003,2105,Scotland,138110,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2003,3207,Greece,129040,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2003,5204,Philippines,123300,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2003,2304,Germany,120680,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2003,7103,India,119430,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2003,9225,South Africa,101440,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2003,5203,Malaysia,93070,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2003,2308,Netherlands,91760,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2003,4208,Lebanon,82760,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2003,6102,Hong Kong,77310,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2003,7107,Sri Lanka,66040,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2003,8104,USA,65350,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2003,3204,Croatia,64750,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2003,3307,Poland,64280,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2003,5202,Indonesia,59620,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+2004,2102,England,922670,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2004,1201,New Zealand,413980,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2004,3104,Italy,222950,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2004,6101,China,205200,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2004,5105,Vietnam,171980,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2004,2105,Scotland,137110,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2004,7103,India,132790,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2004,3207,Greece,129020,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2004,5204,Philippines,128610,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2004,2304,Germany,121790,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2004,9225,South Africa,108410,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2004,5203,Malaysia,97600,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2004,2308,Netherlands,91610,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2004,4208,Lebanon,83680,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2004,6102,Hong Kong,78320,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2004,7107,Sri Lanka,67780,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2004,8104,USA,67510,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2004,3204,Croatia,67160,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2004,3307,Poland,63740,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2004,5202,Indonesia,60260,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+2005,2102,England,925900,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2005,1201,New Zealand,423550,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2005,6101,China,227600,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2005,3104,Italy,220550,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2005,5105,Vietnam,174440,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2005,7103,India,148960,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2005,2105,Scotland,136920,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2005,5204,Philippines,134580,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2005,3207,Greece,129010,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2005,2304,Germany,123010,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2005,9225,South Africa,114150,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2005,5203,Malaysia,101390,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2005,2308,Netherlands,91620,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2005,4208,Lebanon,84900,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2005,6102,Hong Kong,79850,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2005,7107,Sri Lanka,70620,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2005,8104,USA,70520,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2005,3204,Croatia,69500,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2005,3307,Poland,63280,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2005,5202,Indonesia,60250,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+2006,2102,England,939260,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2006,1201,New Zealand,437890,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2006,6101,China,251960,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2006,3104,Italy,218040,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2006,5105,Vietnam,178010,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2006,7103,India,169720,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2006,5204,Philippines,141890,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2006,2105,Scotland,136630,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2006,3207,Greece,128980,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2006,2304,Germany,124710,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2006,9225,South Africa,119490,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2006,5203,Malaysia,105710,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2006,2308,Netherlands,91850,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2006,4208,Lebanon,85940,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2006,6102,Hong Kong,81360,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2006,8104,USA,74670,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2006,7107,Sri Lanka,73820,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2006,3204,Croatia,71810,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2006,3307,Poland,62900,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2006,5202,Indonesia,60530,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+2007,2102,England,953270,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2007,1201,New Zealand,458020,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2007,6101,China,278320,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2007,3104,Italy,214970,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2007,7103,India,204440,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2007,5105,Vietnam,182720,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2007,5204,Philippines,151190,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2007,2105,Scotland,138280,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2007,9225,South Africa,127570,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2007,3207,Greece,127510,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2007,2304,Germany,125780,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2007,5203,Malaysia,111470,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2007,2308,Netherlands,91270,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2007,4208,Lebanon,87620,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2007,6102,Hong Kong,82310,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2007,7107,Sri Lanka,78940,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2007,8104,USA,78930,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2007,3204,Croatia,71110,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2007,6203,"Korea, South",64700,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2007,5202,Indonesia,61940,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+2008,2102,England,968350,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2008,1201,New Zealand,483660,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2008,6101,China,313030,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2008,7103,India,251200,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2008,3104,Italy,211270,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2008,5105,Vietnam,189480,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2008,5204,Philippines,163040,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2008,2105,Scotland,139780,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2008,9225,South Africa,138260,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2008,2304,Germany,126450,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2008,3207,Greece,125770,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2008,5203,Malaysia,118440,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2008,2308,Netherlands,90560,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2008,4208,Lebanon,88760,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2008,7107,Sri Lanka,85600,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2008,6102,Hong Kong,83310,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2008,8104,USA,80730,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2008,6203,"Korea, South",73770,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2008,3204,Croatia,70240,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2008,5202,Indonesia,65070,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+2009,2102,England,980380,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2009,1201,New Zealand,504440,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2009,6101,China,344980,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2009,7103,India,307590,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2009,3104,Italy,208130,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2009,5105,Vietnam,197820,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2009,5204,Philippines,175020,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2009,9225,South Africa,150690,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2009,2105,Scotland,140670,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2009,2304,Germany,126410,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2009,5203,Malaysia,124790,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2009,3207,Greece,124170,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2009,7107,Sri Lanka,92060,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2009,2308,Netherlands,89570,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2009,4208,Lebanon,89270,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2009,6102,Hong Kong,84430,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2009,8104,USA,82200,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2009,6203,"Korea, South",81350,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2009,3204,Croatia,69370,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2009,5202,Indonesia,68570,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+2010,2102,England,985090,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2010,1201,New Zealand,517780,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2010,6101,China,371550,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2010,7103,India,329510,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2010,3104,Italy,204690,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2010,5105,Vietnam,203770,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2010,5204,Philippines,183770,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2010,9225,South Africa,155950,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2010,2105,Scotland,140570,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2010,5203,Malaysia,129880,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2010,2304,Germany,126260,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2010,3207,Greece,122520,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2010,7107,Sri Lanka,96480,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2010,4208,Lebanon,89640,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2010,2308,Netherlands,88500,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2010,6102,Hong Kong,85460,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2010,8104,USA,85330,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2010,6203,"Korea, South",84150,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2010,5202,Indonesia,71170,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2010,2201,Ireland,70970,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+2011,2102,England,991040,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2011,1201,New Zealand,543950,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2011,6101,China,387420,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2011,7103,India,337120,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2011,5105,Vietnam,207620,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2011,3104,Italy,201680,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2011,5204,Philippines,193030,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2011,9225,South Africa,161590,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2011,2105,Scotland,141220,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2011,5203,Malaysia,134140,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2011,2304,Germany,125750,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2011,3207,Greece,121180,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2011,7107,Sri Lanka,99740,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2011,8104,USA,90090,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2011,4208,Lebanon,90030,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2011,2308,Netherlands,87660,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2011,6102,Hong Kong,85990,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2011,6203,"Korea, South",85930,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2011,2201,Ireland,78620,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2011,5202,Indonesia,73060,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+2012,2102,England,1004520,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2012,1201,New Zealand,569630,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2012,6101,China,406390,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2012,7103,India,355380,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2012,5105,Vietnam,212140,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2012,5204,Philippines,206110,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2012,3104,Italy,200350,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2012,9225,South Africa,167630,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2012,2105,Scotland,142200,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2012,5203,Malaysia,136570,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2012,2304,Germany,124680,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2012,3207,Greece,120480,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2012,7107,Sri Lanka,104950,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2012,8104,USA,96710,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2012,6203,"Korea, South",91630,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2012,2201,Ireland,91050,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2012,4208,Lebanon,90850,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2012,6102,Hong Kong,87300,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2012,2308,Netherlands,86200,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2012,5202,Indonesia,74340,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+2013,2102,England,1012780,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2013,1201,New Zealand,585390,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2013,6101,China,432400,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2013,7103,India,378480,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2013,5105,Vietnam,219940,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2013,5204,Philippines,218870,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2013,3104,Italy,200670,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2013,9225,South Africa,172170,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2013,2105,Scotland,142360,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2013,5203,Malaysia,138370,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2013,2304,Germany,123060,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2013,3207,Greece,119840,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2013,7107,Sri Lanka,110670,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2013,8104,USA,100810,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2013,6203,"Korea, South",97860,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2013,2201,Ireland,96360,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2013,4208,Lebanon,91710,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2013,6102,Hong Kong,89830,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2013,2308,Netherlands,84580,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2013,5202,Indonesia,75030,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+2014,2102,England,1010970,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2014,1201,New Zealand,583660,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2014,6101,China,466510,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2014,7103,India,411240,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2014,5204,Philippines,230190,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2014,5105,Vietnam,228530,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2014,3104,Italy,200350,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2014,9225,South Africa,174930,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2014,2105,Scotland,141080,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2014,5203,Malaysia,139390,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2014,2304,Germany,120780,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2014,3207,Greece,118270,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2014,7107,Sri Lanka,115060,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2014,8104,USA,102690,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2014,6203,"Korea, South",101880,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2014,2201,Ireland,94120,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2014,6102,Hong Kong,92560,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2014,4208,Lebanon,92480,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2014,2308,Netherlands,82520,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2014,5202,Indonesia,75400,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+2015,2102,England,1006540,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2015,1201,New Zealand,575430,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2015,6101,China,508870,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2015,7103,India,449040,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2015,5204,Philippines,241130,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2015,5105,Vietnam,235590,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2015,3104,Italy,198510,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2015,9225,South Africa,177390,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2015,5203,Malaysia,143420,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2015,2105,Scotland,139390,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2015,7107,Sri Lanka,119700,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2015,2304,Germany,119100,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2015,3207,Greece,115820,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2015,6203,"Korea, South",106550,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2015,8104,USA,104650,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2015,6102,Hong Kong,95050,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2015,4208,Lebanon,93290,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2015,2201,Ireland,90530,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2015,2308,Netherlands,80620,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2015,5202,Indonesia,77000,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+2016,2102,England,1002060,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2016,1201,New Zealand,568170,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2016,6101,China,557690,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2016,7103,India,489410,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2016,5204,Philippines,252690,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2016,5105,Vietnam,243220,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2016,3104,Italy,195760,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2016,9225,South Africa,180480,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2016,5203,Malaysia,152900,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2016,2105,Scotland,137760,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2016,7107,Sri Lanka,124500,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2016,2304,Germany,116700,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2016,3207,Greece,113420,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2016,6203,"Korea, South",111570,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2016,8104,USA,105750,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2016,6102,Hong Kong,97590,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2016,4208,Lebanon,93720,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2016,2201,Ireland,88020,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2016,5202,Indonesia,78970,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2016,2308,Netherlands,78670,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+2017,2102,England,999230,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2017,6101,China,604180,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2017,1201,New Zealand,572250,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2017,7103,India,538320,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2017,5204,Philippines,265300,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2017,5105,Vietnam,251940,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2017,3104,Italy,190810,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2017,9225,South Africa,185600,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2017,5203,Malaysia,165020,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2017,2105,Scotland,135980,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2017,7107,Sri Lanka,128360,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2017,2304,Germany,115700,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2017,6203,"Korea, South",114830,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2017,3207,Greece,111360,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2017,8104,USA,108830,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2017,6102,Hong Kong,99180,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2017,4208,Lebanon,94040,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2017,2201,Ireland,87130,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2017,4204,Iraq,84620,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2017,5202,Indonesia,83140,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+2018,2102,England,994330,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2018,6101,China,645120,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2018,7103,India,593270,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2018,1201,New Zealand,577490,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2018,5204,Philippines,276890,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2018,5105,Vietnam,259720,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2018,9225,South Africa,189740,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2018,3104,Italy,185300,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2018,5203,Malaysia,174470,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2018,2105,Scotland,134040,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2018,7107,Sri Lanka,132180,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2018,6203,"Korea, South",116680,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2018,2304,Germany,113880,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2018,8104,USA,110090,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2018,3207,Greece,108780,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2018,6102,Hong Kong,100040,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2018,7105,Nepal,94970,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2018,4208,Lebanon,94360,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2018,4204,Iraq,88430,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2018,2201,Ireland,87230,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+2019,2102,England,988890,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2019,7103,India,665400,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2019,6101,China,661460,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2019,1201,New Zealand,582850,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2019,5204,Philippines,294160,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2019,5105,Vietnam,268070,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2019,9225,South Africa,195140,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2019,3104,Italy,179630,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2019,5203,Malaysia,177510,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2019,7107,Sri Lanka,137480,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2019,2105,Scotland,132080,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2019,7105,Nepal,119060,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2019,6203,"Korea, South",116430,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2019,2304,Germany,111580,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2019,8104,USA,111040,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2019,3207,Greece,105930,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2019,6102,Hong Kong,101460,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2019,4208,Lebanon,94730,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2019,4204,Iraq,94610,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2019,7106,Pakistan,91650,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+2020,2102,England,986210,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2020,7103,India,724060,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2020,6101,China,638990,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2020,1201,New Zealand,584490,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2020,5204,Philippines,308380,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2020,5105,Vietnam,275920,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2020,9225,South Africa,200890,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2020,5203,Malaysia,178760,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2020,3104,Italy,174790,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2020,7107,Sri Lanka,142690,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2020,7105,Nepal,132400,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2020,2105,Scotland,130390,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2020,8104,USA,113170,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2020,6203,"Korea, South",111980,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2020,2304,Germany,110430,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2020,6102,Hong Kong,104060,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2020,3207,Greece,103280,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2020,4204,Iraq,101030,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2020,7106,Pakistan,97080,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2020,4208,Lebanon,95430,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+2021,2102,England,973950,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2021,7103,India,712040,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2021,6101,China,584660,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2021,1201,New Zealand,584010,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2021,5204,Philippines,308240,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2021,5105,Vietnam,274840,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2021,9225,South Africa,202730,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2021,5203,Malaysia,173990,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2021,3104,Italy,167570,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2021,7107,Sri Lanka,140110,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2021,7105,Nepal,130290,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2021,2105,Scotland,127340,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2021,8104,USA,113470,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2021,6203,"Korea, South",107130,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2021,2304,Germany,107060,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2021,6102,Hong Kong,104400,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2021,4204,Iraq,101020,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2021,3207,Greece,99950,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2021,7106,Pakistan,96170,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2021,4208,Lebanon,95110,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+2022,2102,England,961650,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2022,7103,India,754220,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2022,6101,China,597680,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2022,1201,New Zealand,586080,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2022,5204,Philippines,320430,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2022,5105,Vietnam,282030,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2022,9225,South Africa,206810,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2022,5203,Malaysia,176360,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2022,3104,Italy,161630,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2022,7105,Nepal,151260,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2022,7107,Sri Lanka,145490,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2022,2105,Scotland,125120,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2022,8104,USA,113650,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2022,6102,Hong Kong,112560,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2022,6203,"Korea, South",108970,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2022,2304,Germany,104770,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2022,4204,Iraq,104150,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2022,7106,Pakistan,103210,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2022,5202,Indonesia,96860,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2022,3207,Greece,96230,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+2023,2102,England,961590,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2023,7103,India,847530,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2023,6101,China,655130,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2023,1201,New Zealand,598500,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2023,5204,Philippines,363020,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2023,5105,Vietnam,299620,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2023,9225,South Africa,215070,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2023,5203,Malaysia,180790,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2023,7105,Nepal,179230,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2023,3104,Italy,159040,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2023,7107,Sri Lanka,158810,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2023,2105,Scotland,124840,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2023,7106,Pakistan,120670,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2023,6102,Hong Kong,120130,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2023,8104,USA,116780,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2023,6203,"Korea, South",115770,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2023,5104,Thailand,110000,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2023,5202,Indonesia,109590,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2023,4204,Iraq,106850,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2023,2304,Germany,104450,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+2024,2102,England,965140,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2024,7103,India,916020,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2024,6101,China,699640,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2024,1201,New Zealand,617590,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2024,5204,Philippines,393870,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2024,5105,Vietnam,318800,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2024,9225,South Africa,224280,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2024,7105,Nepal,197340,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2024,5203,Malaysia,183360,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2024,7107,Sri Lanka,172910,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2024,3104,Italy,155880,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2024,7106,Pakistan,134750,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2024,2105,Scotland,125170,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2024,6102,Hong Kong,124780,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2024,5202,Indonesia,120080,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2024,6203,"Korea, South",119430,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2024,8104,USA,119330,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2024,5104,Thailand,114010,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2024,4204,Iraq,109630,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2024,2201,Ireland,103030,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20
+2025,7103,India,971020,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",1
+2025,2102,England,970950,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",2
+2025,6101,China,731540,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",3
+2025,1201,New Zealand,637680,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",4
+2025,5204,Philippines,412530,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",5
+2025,5105,Vietnam,326630,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",6
+2025,9225,South Africa,229950,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",7
+2025,7105,Nepal,213580,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",8
+2025,7107,Sri Lanka,184800,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",9
+2025,5203,Malaysia,184320,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",10
+2025,3104,Italy,152560,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",11
+2025,7106,Pakistan,143920,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",12
+2025,5202,Indonesia,128140,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",13
+2025,6102,Hong Kong,128040,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",14
+2025,2105,Scotland,125690,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",15
+2025,8104,USA,122030,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",16
+2025,6203,"Korea, South",121660,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",17
+2025,5104,Thailand,115250,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",18
+2025,4204,Iraq,111880,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",19
+2025,2201,Ireland,105620,Estimated resident population by country of birth as at 30 June,ABS Table 1.1,"Australia's population by country of birth, 2025",20

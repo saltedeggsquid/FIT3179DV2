@@ -1,0 +1,88 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "description": "Stacked area chart showing Australia's overseas-born resident population by major birth region, 1996\u20132025.",
+  "data": {
+    "url": "data/overseas_born_population_by_major_region_long.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+  "width": "container",
+  "height": 340,
+  "mark": {
+    "type": "area",
+    "opacity": 0.88
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "quantitative",
+      "title": "Year",
+      "axis": {
+        "format": "d",
+        "tickCount": 7,
+        "grid": false
+      }
+    },
+    "y": {
+      "field": "estimated_resident_population",
+      "type": "quantitative",
+      "title": "Overseas-born population",
+      "stack": "center",
+      "axis": {
+        "format": "~s",
+        "grid": true
+      }
+    },
+    "color": {
+      "field": "birth_region",
+      "type": "nominal",
+      "title": "Birth region",
+      "scale": {
+        "scheme": "tableau10"
+      }
+    },
+    "order": {
+      "field": "sacc_major_group_code",
+      "type": "quantitative"
+    },
+    "tooltip": [
+      {
+        "field": "year",
+        "type": "quantitative",
+        "title": "Year"
+      },
+      {
+        "field": "birth_region",
+        "type": "nominal",
+        "title": "Birth region"
+      },
+      {
+        "field": "estimated_resident_population",
+        "type": "quantitative",
+        "title": "Population",
+        "format": ","
+      }
+    ]
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "labelColor": "#53616b",
+      "titleColor": "#27343c",
+      "domainColor": "#cbd3d8",
+      "tickColor": "#cbd3d8",
+      "gridColor": "#e8edef"
+    },
+    "legend": {
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "orient": "bottom",
+      "columns": 2
+    }
+  }
+}

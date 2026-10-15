@@ -19,7 +19,7 @@ const chartConfig = {
 };
 
 // Helper function for replacing a placeholder with a Vega-Lite chart.
-async function renderChart(containerId, specification) {
+async function renderChart(containerId, specificationPath) {
   const selector = `#${containerId}`;
   const container = document.querySelector(selector);
 
@@ -29,6 +29,12 @@ async function renderChart(containerId, specification) {
   }
 
   try {
+    const response = await fetch(specificationPath);
+    if (!response.ok) {
+      throw new Error(`Could not load ${specificationPath}: HTTP ${response.status}`);
+    }
+
+    const specification = await response.json();
     container.innerHTML = "";
     await vegaEmbed(selector, specification, chartConfig);
   } catch (error) {
@@ -48,17 +54,17 @@ async function renderChart(containerId, specification) {
     chart-streamgraph
 
   Section 2 — Modern mosaic
-    chart-choropleth
-    chart-dot-density
-    chart-treemap
+    chart-choropleth map
+    chart-dot-density map
+    chart-lollipop chart
 
   Section 3 — Generational bridge
     chart-sankey
-    chart-language-age
+    chart-
     chart-radar
 
   Section 4 — Cohesion
-    chart-cohesion
+    chart-
     chart-settlement-map
 
   Add calls once the specifications and cleaned data are ready, for example:
@@ -67,5 +73,10 @@ async function renderChart(containerId, specification) {
 
 // Keep the current page scaffold easy to test before chart integration.
 document.addEventListener("DOMContentLoaded", () => {
-  console.info("Many Stories, One Australia layout loaded. Chart containers are ready.");
+  renderChart("chart-bump", "charts/bump_chart.json");
+  renderChart("chart-streamgraph", "charts/streamgraph.json");
+
+  renderChart("chart-lollipop_chart", "charts/lollipop_chart.json");
+
+  renderChart("chart-sankey", "charts/sankey.json");
 });

@@ -1,0 +1,95 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "description": "Top 20 countries of birth by estimated resident population in Australia, selected by year.",
+  "data": {
+    "url": "data/country_of_birth_top20_by_year.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+  "width": "container",
+  "params": [
+    {
+      "name": "chosenYear",
+      "value": 2025,
+      "bind": {
+        "input": "range",
+        "min": 1996,
+        "max": 2025,
+        "step": 1,
+        "name": "Select Year: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "toNumber(datum.year) == chosenYear"
+    }
+  ],
+  "encoding": {
+    "y": {
+      "field": "country_of_birth",
+      "type": "nominal",
+      "sort": {
+        "field": "rank_by_population"
+      },
+      "axis": {
+        "title": "Country of birth",
+        "labelLimit": 180
+      }
+    },
+    "x": {
+      "field": "estimated_resident_population",
+      "type": "quantitative",
+      "axis": {
+        "title": "Estimated resident population",
+        "format": ",.0f",
+        "labelAngle": 45
+      }
+    },
+    "color": {"value": "#1f5a4d"},
+    "tooltip": [
+      {
+        "field": "country_of_birth",
+        "type": "nominal",
+        "title": "Country"
+      },
+      {
+        "field": "estimated_resident_population",
+        "type": "quantitative",
+        "title": "Population",
+        "format": ","
+      },
+      {
+        "field": "rank_by_population",
+        "type": "quantitative",
+        "title": "Rank"
+      },
+      {
+        "field": "year",
+        "type": "ordinal",
+        "title": "Year"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "size": 2,
+        "opacity": 0.6
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 100,
+        "opacity": 1
+      }
+    }
+  ],
+  "height": {
+    "step": 22
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "description": "Ranks of the ten countries of birth that appear in Australia's 2025 top ten, shown from 1996 to 2025. Rank 1 is highest.",
+  "data": {
+    "url": "data/bump_chart_top10_2025.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+  "width": "container",
+  "height": 340,
+  "mark": {
+    "type": "line",
+    "point": {
+      "filled": true,
+      "size": 45
+    },
+    "strokeWidth": 2.5
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "quantitative",
+      "title": "Year",
+      "axis": {
+        "format": "d",
+        "tickCount": 7,
+        "grid": false
+      }
+    },
+    "y": {
+      "field": "rank_by_population",
+      "type": "quantitative",
+      "title": "Rank",
+      "scale": {
+        "zero": false,
+        "reverse": true
+      },
+      "axis": {
+        "tickMinStep": 1
+      }
+    },
+    "color": {
+      "field": "country_of_birth",
+      "type": "nominal",
+      "title": "Country of birth",
+      "scale": {
+        "scheme": "tableau10"
+      }
+    },
+    "detail": {
+      "field": "country_of_birth"
+    },
+    "tooltip": [
+      {
+        "field": "year",
+        "type": "quantitative",
+        "title": "Year"
+      },
+      {
+        "field": "country_of_birth",
+        "type": "nominal",
+        "title": "Country of birth"
+      },
+      {
+        "field": "rank_by_population",
+        "type": "quantitative",
+        "title": "Rank"
+      },
+      {
+        "field": "estimated_resident_population",
+        "type": "quantitative",
+        "title": "Population",
+        "format": ","
+      }
+    ]
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "labelColor": "#53616b",
+      "titleColor": "#27343c",
+      "domainColor": "#cbd3d8",
+      "tickColor": "#cbd3d8",
+      "gridColor": "#e8edef"
+    },
+    "legend": {
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "orient": "bottom",
+      "columns": 3
+    }
+  }
+}
