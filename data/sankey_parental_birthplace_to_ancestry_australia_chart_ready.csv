@@ -1,7 +1,7 @@
 source,target,value
 Birthplace not stated,Ancestry not stated,1304004
 Birthplace not stated,Australian,69853
-Birthplace not stated,Australian Aboriginal,11304
+Birthplace not stated,AustralianAboriginal,11304
 Birthplace not stated,Chinese,7574
 Birthplace not stated,Croatian,1180
 Birthplace not stated,Dutch,1976
@@ -33,7 +33,7 @@ Birthplace not stated,Vietnamese,1681
 Birthplace not stated,Welsh,662
 Both parents born in Australia,Ancestry not stated,112954
 Both parents born in Australia,Australian,5701105
-Both parents born in Australia,Australian Aboriginal,671270
+Both parents born in Australia,AustralianAboriginal,671270
 Both parents born in Australia,Chinese,54942
 Both parents born in Australia,Croatian,42232
 Both parents born in Australia,Dutch,117275
@@ -65,7 +65,7 @@ Both parents born in Australia,Vietnamese,6209
 Both parents born in Australia,Welsh,61342
 Both parents born overseas,Ancestry not stated,143752
 Both parents born overseas,Australian,295003
-Both parents born overseas,Australian Aboriginal,6248
+Both parents born overseas,AustralianAboriginal,6248
 Both parents born overseas,Chinese,1258010
 Both parents born overseas,Croatian,93444
 Both parents born overseas,Dutch,169205
@@ -97,7 +97,7 @@ Both parents born overseas,Vietnamese,308181
 Both parents born overseas,Welsh,65197
 Father only born overseas,Ancestry not stated,12982
 Father only born overseas,Australian,859083
-Father only born overseas,Australian Aboriginal,33799
+Father only born overseas,AustralianAboriginal,33799
 Father only born overseas,Chinese,24827
 Father only born overseas,Croatian,17905
 Father only born overseas,Dutch,56913
@@ -129,7 +129,7 @@ Father only born overseas,Vietnamese,6719
 Father only born overseas,Welsh,17204
 Mother only born overseas,Ancestry not stated,10471
 Mother only born overseas,Australian,671712
-Mother only born overseas,Australian Aboriginal,18690
+Mother only born overseas,AustralianAboriginal,18690
 Mother only born overseas,Chinese,45284
 Mother only born overseas,Croatian,9599
 Mother only born overseas,Dutch,36577
