@@ -1,0 +1,204 @@
+
+{
+  "$schema": "https://vega.github.io/schema/vega/v6.json",
+  "description": "English proficiency among people who use another language, compared by sex.",
+  "width": 500,
+  "height": 180,
+  "padding": {
+    "left": 10,
+    "right": 10,
+    "top": 20,
+    "bottom": 45
+  },
+  "data": [
+    {
+      "name": "table",
+      "url": "data/english_proficiency_by_sex_butterfly.csv",
+      "format": {
+        "type": "csv",
+        "parse": {
+          "male_count": "number",
+          "female_count": "number",
+          "male_percent": "number",
+          "female_percent": "number"
+        }
+      },
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "-datum.male_percent",
+          "as": "male_value"
+        },
+        {
+          "type": "fold",
+          "fields": [
+            "male_value",
+            "female_percent"
+          ],
+          "as": [
+            "sex_field",
+            "signed_percent"
+          ]
+        },
+        {
+          "type": "formula",
+          "expr": "datum.sex_field == 'male_value' ? 'Male' : 'Female'",
+          "as": "sex"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.sex == 'Male' ? datum.male_count : datum.female_count",
+          "as": "count"
+        },
+        {
+          "type": "formula",
+          "expr": "abs(datum.signed_percent)",
+          "as": "percent"
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "linear",
+      "domain": [-100, 100],
+      "range": "width",
+      "nice": false,
+      "zero": true
+    },
+    {
+      "name": "y",
+      "type": "band",
+      "domain": [
+        "Very well or well",
+        "Not well or not at all"
+      ],
+      "range": "height",
+      "padding": 0.35
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": ["Male", "Female"],
+      "range": ["#4477AA", "#CC6677"]
+    }
+  ],
+  "axes": [
+    {
+      "orient": "bottom",
+      "scale": "x",
+      "title": "Share of people using another language (%)",
+      "values": [-100, -75, -50, -25, 0, 25, 50, 75, 100],
+      "encode": {
+        "labels": {
+          "update": {
+            "text": {
+              "signal": "abs(datum.value) + '%'"
+            }
+          }
+        }
+      }
+    },
+    {
+      "orient": "left",
+      "scale": "y",
+      "domain": false,
+      "ticks": false,
+      "labelLimit": 180,
+      "labelPadding": 8
+    }
+  ],
+  "marks": [
+    {
+      "type": "rule",
+      "encode": {
+        "enter": {
+          "x": {
+            "scale": "x",
+            "value": 0
+          },
+          "y": {
+            "value": 0
+          },
+          "y2": {
+            "signal": "height"
+          },
+          "stroke": {
+            "value": "#666666"
+          },
+          "strokeWidth": {
+            "value": 1
+          }
+        }
+      }
+    },
+    {
+      "type": "rect",
+      "from": {
+        "data": "table"
+      },
+      "encode": {
+        "enter": {
+          "y": {
+            "scale": "y",
+            "field": "proficiency"
+          },
+          "height": {
+            "scale": "y",
+            "band": 0.8
+          },
+          "fill": {
+            "scale": "color",
+            "field": "sex"
+          },
+          "cornerRadius": {
+            "value": 2
+          }
+        },
+        "update": {
+          "x": {
+            "scale": "x",
+            "field": "signed_percent"
+          },
+          "x2": {
+            "scale": "x",
+            "value": 0
+          },
+          "tooltip": {
+            "signal": "datum.sex + ' | ' + datum.proficiency + ': ' + format(datum.percent, '.2f') + '% (' + format(datum.count, ',.0f') + ' people)'"
+          }
+        },
+        "hover": {
+          "fillOpacity": {
+            "value": 0.75
+          }
+        }
+      }
+    }
+  ],
+  "legends": [
+    {
+      "fill": "color",
+      "title": "Sex",
+      "orient": "top",
+      "direction": "horizontal",
+      "offset": 4
+    }
+  ],
+  "config": {
+    "axis": {
+      "labelFont": "Arial",
+      "titleFont": "Arial",
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "titleFontWeight": "normal"
+    },
+    "text": {
+      "font": "Arial"
+    },
+    "view": {
+      "stroke": null
+    }
+  }
+}

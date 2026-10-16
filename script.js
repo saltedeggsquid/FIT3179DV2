@@ -79,4 +79,5 @@ document.addEventListener("DOMContentLoaded", () => {
   renderChart("chart-lollipop_chart", "charts/lollipop_chart.json");
 
   renderChart("chart-sankey", "charts/sankey.json");
+  renderChart("chart-butterfly", "charts/butterfly.json")
 });
