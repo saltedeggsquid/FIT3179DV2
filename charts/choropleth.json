@@ -1,0 +1,76 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "width": 500,
+  "height": 450,
+  "projection": {
+    "type": "equalEarth"
+  },
+  "data": {
+    "url": "data/SA2_2021_AUST_GDA2020_simplified.geojson",
+    "format": {
+      "property": "features"
+    }
+  },
+  "transform": [
+    {
+      "lookup": "properties.SA2_CODE21",
+      "from": {
+        "data": {
+          "url": "data/G13_combined_SA2_2021.csv"
+        },
+        "key": "SA2_CODE_2021",
+        "fields": [
+          "SA2_NAME21",
+          "other_language_count",
+          "total_population",
+          "other_language_pct"
+        ]
+      }
+    }
+  ],
+  "mark": {
+    "type": "geoshape",
+    "stroke": "white",
+    "strokeWidth": 0.15
+  },
+  "encoding": {
+    "color": {
+      "field": "other_language_pct",
+      "type": "quantitative",
+      "scale": {
+        "scheme": "blues"
+      },
+      "legend": {
+        "title": "Proportion (%)"
+      }
+    },
+    "tooltip": [
+      {
+        "field": "properties.SA2_NAME21",
+        "type": "nominal",
+        "title": "SA2"
+      },
+      {
+        "field": "other_language_pct",
+        "type": "quantitative",
+        "title": "Population (%)",
+        "format": ".1f"
+      },
+      {
+        "field": "other_language_count",
+        "type": "quantitative",
+        "title": "People"
+      },
+      {
+        "field": "total_population",
+        "type": "quantitative",
+        "title": "Total population"
+      }
+    ]
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    }
+  }
+}

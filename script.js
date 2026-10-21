@@ -76,6 +76,8 @@ document.addEventListener("DOMContentLoaded", () => {
   renderChart("chart-bump", "charts/bump_chart.json");
   renderChart("chart-streamgraph", "charts/streamgraph.json");
 
+  renderChart("chart-map1", "charts/choropleth.json")
+  renderChart("chart-map2", "charts/propsym.json")
   renderChart("chart-lollipop_chart", "charts/lollipop_chart.json");
 
   renderChart("chart-sankey", "charts/sankey.json");

@@ -1,37 +1,4 @@
 source,target,value
-Birthplace not stated,Ancestry not stated,1304004
-Birthplace not stated,Australian,69853
-Birthplace not stated,AustralianAboriginal,11304
-Birthplace not stated,Chinese,7574
-Birthplace not stated,Croatian,1180
-Birthplace not stated,Dutch,1976
-Birthplace not stated,English,77676
-Birthplace not stated,Filipino,1898
-Birthplace not stated,French,778
-Birthplace not stated,German,7456
-Birthplace not stated,Greek,2586
-Birthplace not stated,Hungarian,521
-Birthplace not stated,Indian,1758
-Birthplace not stated,Irish,15836
-Birthplace not stated,Italian,6884
-Birthplace not stated,Korean,445
-Birthplace not stated,Lebanese,1123
-Birthplace not stated,Macedonian,654
-Birthplace not stated,Maltese,1178
-Birthplace not stated,Maori,1364
-Birthplace not stated,New Zealander,1255
-Birthplace not stated,Other,23189
-Birthplace not stated,Polish,1177
-Birthplace not stated,Russian,680
-Birthplace not stated,Samoan,978
-Birthplace not stated,Scottish,13064
-Birthplace not stated,Serbian,604
-Birthplace not stated,South African,532
-Birthplace not stated,Spanish,761
-Birthplace not stated,Sri Lankan,344
-Birthplace not stated,Vietnamese,1681
-Birthplace not stated,Welsh,662
-Both parents born in Australia,Ancestry not stated,112954
 Both parents born in Australia,Australian,5701105
 Both parents born in Australia,AustralianAboriginal,671270
 Both parents born in Australia,Chinese,54942
@@ -63,7 +30,6 @@ Both parents born in Australia,Spanish,20452
 Both parents born in Australia,Sri Lankan,5073
 Both parents born in Australia,Vietnamese,6209
 Both parents born in Australia,Welsh,61342
-Both parents born overseas,Ancestry not stated,143752
 Both parents born overseas,Australian,295003
 Both parents born overseas,AustralianAboriginal,6248
 Both parents born overseas,Chinese,1258010
@@ -95,7 +61,6 @@ Both parents born overseas,Spanish,92586
 Both parents born overseas,Sri Lankan,79737
 Both parents born overseas,Vietnamese,308181
 Both parents born overseas,Welsh,65197
-Father only born overseas,Ancestry not stated,12982
 Father only born overseas,Australian,859083
 Father only born overseas,AustralianAboriginal,33799
 Father only born overseas,Chinese,24827
@@ -127,7 +92,6 @@ Father only born overseas,Spanish,8154
 Father only born overseas,Sri Lankan,6222
 Father only born overseas,Vietnamese,6719
 Father only born overseas,Welsh,17204
-Mother only born overseas,Ancestry not stated,10471
 Mother only born overseas,Australian,671712
 Mother only born overseas,AustralianAboriginal,18690
 Mother only born overseas,Chinese,45284
