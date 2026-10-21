@@ -1,0 +1,79 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "width": 650,
+  "height": 420,
+  "data": {
+    "url": "data/g09_g43_labourforce.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "circle",
+        "size": 45,
+        "opacity": 0.35
+      },
+      "encoding": {
+        "x": {
+          "field": "overseas_born_pct",
+          "type": "quantitative",
+          "title": "Overseas-born residents (%)",
+          "scale": {
+            "zero": false
+          }
+        },
+        "y": {
+          "field": "labour_force_participation_pct",
+          "type": "quantitative",
+          "title": "Labour-force participation rate (%)",
+          "scale": {
+            "zero": false
+          }
+        },
+        "tooltip": [
+          {
+            "field": "SA2_NAME21",
+            "type": "nominal",
+            "title": "SA2"
+          },
+          {
+            "field": "overseas_born_pct",
+            "type": "quantitative",
+            "title": "Overseas-born residents (%)",
+            "format": ".2f"
+          },
+          {
+            "field": "labour_force_participation_pct",
+            "type": "quantitative",
+            "title": "Labour-force participation (%)",
+            "format": ".1f"
+          },
+          {
+            "field": "overseas_born_count",
+            "type": "quantitative",
+            "title": "Overseas-born residents",
+            "format": ","
+          },
+          {
+            "field": "total_population",
+            "type": "quantitative",
+            "title": "Total population",
+            "format": ","
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "axis": {
+      "grid": true,
+      "labelFontSize": 11,
+      "titleFontSize": 12
+    },
+    "view": {
+      "stroke": null
+    }
+  }
+}

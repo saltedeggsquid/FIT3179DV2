@@ -77,10 +77,13 @@ document.addEventListener("DOMContentLoaded", () => {
   renderChart("chart-streamgraph", "charts/streamgraph.json");
 
   renderChart("chart-map1", "charts/choropleth.json")
-  renderChart("chart-map2", "charts/propsym.json")
+  renderChart("chart-map2", "charts/chart-04.json")
   renderChart("chart-lollipop_chart", "charts/lollipop_chart.json");
 
   renderChart("chart-sankey", "charts/sankey.json");
   renderChart("chart-butterfly", "charts/butterfly.json")
   renderChart("chart-radar", "charts/radar.json")
+
+  renderChart("chart-scatterplot", "charts/chart-09.json")
+  renderChart("chart-map3", "charts/chart-10.json")
 });

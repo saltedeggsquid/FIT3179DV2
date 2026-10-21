@@ -5,7 +5,7 @@
   "data": [
     {
       "name": "rawData",
-      "url": "data/sankey_parental_birthplace_to_ancestry_australia_chart_ready.csv",
+      "url": "data/g08_sankey_ancestry.csv",
       "format": {
         "type": "csv",
         "parse": {

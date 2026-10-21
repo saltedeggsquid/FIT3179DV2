@@ -1,8 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-  "description": "Top 20 countries of birth by estimated resident population in Australia, selected by year.",
   "data": {
-    "url": "data/country_of_birth_top20_by_year.csv",
+    "url": "data/1.1_country_of_birth_top20_by_year.csv",
     "format": {
       "type": "csv"
     }

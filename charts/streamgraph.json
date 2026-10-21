@@ -1,8 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-  "description": "Stacked area chart showing Australia's overseas-born resident population by major birth region, 1996\u20132025.",
   "data": {
-    "url": "data/overseas_born_population_by_major_region_long.csv",
+    "url": "data/1.3_overseas_born_population.csv",
     "format": {
       "type": "csv"
     }

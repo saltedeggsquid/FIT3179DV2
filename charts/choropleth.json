@@ -16,7 +16,7 @@
       "lookup": "properties.SA2_CODE21",
       "from": {
         "data": {
-          "url": "data/G13_combined_SA2_2021.csv"
+          "url": "data/g13_combined_SA2_2021.csv"
         },
         "key": "SA2_CODE_2021",
         "fields": [
