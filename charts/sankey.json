@@ -13,6 +13,18 @@
         }
       },
       "transform": [
+          {
+          "type": "formula",
+          "expr": "datum.value < 500000 && datum.target != 'Other' ? 'Other' : datum.target",
+          "as": "targetGrouped"
+        },
+        {
+          "type": "aggregate",
+          "groupby": ["source", "targetGrouped"],
+          "fields": ["value"],
+          "ops": ["sum"],
+          "as": ["value"]
+        },
         {
           "type": "formula",
           "expr": "datum.source",
@@ -20,7 +32,7 @@
         },
         {
           "type": "formula",
-          "expr": "datum.target",
+          "expr": "datum.targetGrouped",
           "as": "stk2"
         },
         {
@@ -132,9 +144,17 @@
         "data": "rawData",
         "field": "stk2"
       },
-      "range": {
-        "scheme": "tableau20"
-      }
+      "range": [
+        "#4477AA",
+        "#EE6677",
+        "#228833",
+        "#CCBB44",
+        "#66CCEE",
+        "#AA3377",
+        "#332288",
+        "#44AA99",
+        "#999999"
+      ]
     },
     {
       "name": "x",
@@ -159,10 +179,9 @@
       },
       "range": [
         "#4C4541",
-        "#DCCCAC",
         "#B0BA99",
-        "#546B41",
-        "#4E220F"
+        "#4E220F",
+        "#DCCCAC"
       ]
     },
     {
