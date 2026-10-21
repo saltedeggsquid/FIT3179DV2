@@ -82,5 +82,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
   renderChart("chart-sankey", "charts/sankey.json");
   renderChart("chart-butterfly", "charts/butterfly.json")
-  renderChart("chart-radar", "charts/cultural_participation_radar.json")
+  renderChart("chart-radar", "charts/radar.json")
 });
