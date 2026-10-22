@@ -28,7 +28,7 @@
       "title": "Year",
       "axis": {
         "format": "d",
-        "tickCount": 7,
+        "tickCount": 10,
         "grid": false
       }
     },
@@ -90,14 +90,5 @@
         "format": ","
       }
     ]
-  },
-  "config": {
-    "view": {
-      "stroke": null
-    },
-    "axis": {
-      "labelFontSize": 13,
-      "titleFontSize": 15
-    }
   }
 }
