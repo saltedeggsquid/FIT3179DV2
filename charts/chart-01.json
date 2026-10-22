@@ -64,9 +64,6 @@
       },
       "legend": null
     },
-    "detail": {
-      "field": "country_of_birth"
-    },
     "tooltip": [
       {
         "field": "year",
