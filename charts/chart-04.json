@@ -113,7 +113,7 @@
       },
       "encoding": {
         "x": {"value": 20},
-        "y": {"value": 425},
+        "y": {"value": 30},
         "text": {"field": "note"}
       }
     }

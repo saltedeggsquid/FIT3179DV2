@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-  "width": 650,
-  "height": 420,
+  "width": "container",
+  "height": 460,
   "data": {
     "url": "data/g09_g43_labourforce.csv",
     "format": {
@@ -12,8 +12,9 @@
     {
       "mark": {
         "type": "circle",
-        "size": 45,
-        "opacity": 0.35
+        "size": 50,
+        "opacity": 0.35,
+        "color": "#7F9172"
       },
       "encoding": {
         "x": {

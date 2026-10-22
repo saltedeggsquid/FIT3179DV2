@@ -80,9 +80,10 @@ h1 em { color: var(--green); font-weight: 500; }
 .map-note-card h3 { margin: 19px 0 10px; font: 500 30px/1.2 var(--serif); }
 .map-note-card p { max-width: 330px; color: rgba(255,254,250,.76); font-size: 13px; line-height: 1.8; }
 .map-note-rule { width: 45px; height: 2px; background: var(--coral); margin: 15px 0; }
-.note-foot { color: var(--lime); font-size: 9px; }
-.quote-card { min-height: 280px; justify-content: center; align-items: flex-start; padding: 30px 35px; background: #e9dfcb; }
-.quote-mark { color: var(--coral); font: 90px/.8 var(--serif); }
+.note-foot { color: var(--lime); font-size: 10px; }
+.note-foot-2 { color: #433E0E; font-size: 10px; }
+.quote-card { min-height: 280px; justify-content: center; align-items: flex-start; padding: 30px 35px; background: #edeec0; }
+.quote-mark { color: #433E0E; font: 90px/.8 var(--serif); }
 .quote-card p { max-width: 390px; margin: 12px 0 20px; font: 500 clamp(22px, 2.5vw, 30px)/1.35 var(--serif); }
 .quote-rule { display: block; width: 42px; height: 2px; margin-bottom: 17px; background: var(--green); }
 .closing-panel { max-width: 1172px; margin: 38px auto 0; padding: 27px 32px; display: grid; grid-template-columns: 190px 1fr; gap: 25px; align-items: center; background: var(--green-dark); color: var(--white); }
