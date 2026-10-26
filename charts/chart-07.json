@@ -1,204 +1,125 @@
-
 {
-  "$schema": "https://vega.github.io/schema/vega/v6.json",
-  "description": "English proficiency among people who use another language, compared by sex.",
-  "width": 500,
-  "height": 180,
-  "padding": {
-    "left": 10,
-    "right": 10,
-    "top": 20,
-    "bottom": 45
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "title": {
+    "text": "Parents’ English proficiency profiles by age of dependent children",
+    "subtitle": "Australia, 2021 Census · Counts of dependent children in couple families",
+    "anchor": "start",
+    "fontSize": 16,
+    "subtitleFontSize": 11,
+    "offset": 12
   },
-  "data": [
+  "width": "container",
+  "height": 400,
+  "padding": {
+    "left": 8,
+    "right": 8,
+    "top": 8,
+    "bottom": 8
+  },
+  "data": {
+    "url": "data/g12_heatmap.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+  "transform": [
     {
-      "name": "table",
-      "url": "data/english_proficiency_by_sex_butterfly.csv",
-      "format": {
-        "type": "csv",
-        "parse": {
-          "male_count": "number",
-          "female_count": "number",
-          "male_percent": "number",
-          "female_percent": "number"
-        }
-      },
-      "transform": [
-        {
-          "type": "formula",
-          "expr": "-datum.male_percent",
-          "as": "male_value"
-        },
-        {
-          "type": "fold",
-          "fields": [
-            "male_value",
-            "female_percent"
-          ],
-          "as": [
-            "sex_field",
-            "signed_percent"
-          ]
-        },
-        {
-          "type": "formula",
-          "expr": "datum.sex_field == 'male_value' ? 'Male' : 'Female'",
-          "as": "sex"
-        },
-        {
-          "type": "formula",
-          "expr": "datum.sex == 'Male' ? datum.male_count : datum.female_count",
-          "as": "count"
-        },
-        {
-          "type": "formula",
-          "expr": "abs(datum.signed_percent)",
-          "as": "percent"
-        }
-      ]
+      "filter": "datum.age_group !== 'All dependent children'"
     }
   ],
-  "scales": [
-    {
-      "name": "x",
-      "type": "linear",
-      "domain": [-100, 100],
-      "range": "width",
-      "nice": false,
-      "zero": true
-    },
-    {
-      "name": "y",
-      "type": "band",
-      "domain": [
-        "Very well or well",
-        "Not well or not at all"
-      ],
-      "range": "height",
-      "padding": 0.35
-    },
-    {
-      "name": "color",
+  "mark": {
+    "type": "rect",
+    "cornerRadius": 3,
+    "stroke": "#ffffff",
+    "strokeWidth": 2
+  },
+  "encoding": {
+    "x": {
+      "field": "parent_profile",
       "type": "ordinal",
-      "domain": ["Male", "Female"],
-      "range": ["#4477AA", "#CC6677"]
-    }
-  ],
-  "axes": [
-    {
-      "orient": "bottom",
-      "scale": "x",
-      "title": "Share of people using another language (%)",
-      "values": [-100, -75, -50, -25, 0, 25, 50, 75, 100],
-      "encode": {
-        "labels": {
-          "update": {
-            "text": {
-              "signal": "abs(datum.value) + '%'"
-            }
-          }
-        }
+      "sort": [
+        "Both parents speak English only",
+        "At least one parent uses another language",
+        "English proficiency not stated"
+      ],
+      "title": "Parents’ English proficiency profile",
+      "axis": {
+        "labelAngle": 0,
+        "labelLimit": 220,
+        "labelFontSize": 10,
+        "labelLineHeight": 12,
+        "labelPadding": 8,
+        "titlePadding": 18,
+        "labelExpr": "datum.label === 'Both parents speak English only' ? 'Both parents speak English only' : datum.label === 'At least one parent uses another language' ? 'At least one parent uses another language' : 'English proficiency not stated'"
       }
     },
-    {
-      "orient": "left",
-      "scale": "y",
-      "domain": false,
-      "ticks": false,
-      "labelLimit": 180,
-      "labelPadding": 8
-    }
-  ],
-  "marks": [
-    {
-      "type": "rule",
-      "encode": {
-        "enter": {
-          "x": {
-            "scale": "x",
-            "value": 0
-          },
-          "y": {
-            "value": 0
-          },
-          "y2": {
-            "signal": "height"
-          },
-          "stroke": {
-            "value": "#666666"
-          },
-          "strokeWidth": {
-            "value": 1
-          }
-        }
+    "y": {
+      "field": "age_group",
+      "type": "ordinal",
+      "sort": [
+        "0–4 years",
+        "5–9 years",
+        "10–12 years",
+        "13–14 years",
+        "15–17 years",
+        "18–20 years",
+        "21–24 years",
+        "All dependent children"
+      ],
+      "title": "Age of dependent children",
+      "axis": {
+        "labelFontSize": 11,
+        "titlePadding": 10
       }
     },
-    {
-      "type": "rect",
-      "from": {
-        "data": "table"
+    "color": {
+      "field": "count",
+      "type": "quantitative",
+      "scale": {
+        "scheme": "tealblues"
       },
-      "encode": {
-        "enter": {
-          "y": {
-            "scale": "y",
-            "field": "proficiency"
-          },
-          "height": {
-            "scale": "y",
-            "band": 0.8
-          },
-          "fill": {
-            "scale": "color",
-            "field": "sex"
-          },
-          "cornerRadius": {
-            "value": 2
-          }
-        },
-        "update": {
-          "x": {
-            "scale": "x",
-            "field": "signed_percent"
-          },
-          "x2": {
-            "scale": "x",
-            "value": 0
-          },
-          "tooltip": {
-            "signal": "datum.sex + ' | ' + datum.proficiency + ': ' + format(datum.percent, '.2f') + '% (' + format(datum.count, ',.0f') + ' people)'"
-          }
-        },
-        "hover": {
-          "fillOpacity": {
-            "value": 0.75
-          }
-        }
+      "legend": {
+        "title": "Number of children",
+        "format": ",.0f",
+        "gradientLength": 400,
+        "gradientThickness": 16,
+        "gradientLabelLimit": 100,
+        "titleFontSize": 13,
+        "labelFontSize": 10,
+        "offset": 10
       }
-    }
-  ],
-  "legends": [
-    {
-      "fill": "color",
-      "title": "Sex",
-      "orient": "top",
-      "direction": "horizontal",
-      "offset": 4
-    }
-  ],
+    },
+    "tooltip": [
+      {
+        "field": "age_group",
+        "title": "Children’s age"
+      },
+      {
+        "field": "parent_profile",
+        "title": "Parent profile"
+      },
+      {
+        "field": "count",
+        "type": "quantitative",
+        "title": "Dependent children",
+        "format": ",.0f"
+      }
+    ]
+  },
   "config": {
-    "axis": {
-      "labelFont": "Arial",
-      "titleFont": "Arial",
-      "labelFontSize": 11,
-      "titleFontSize": 12,
-      "titleFontWeight": "normal"
-    },
-    "text": {
-      "font": "Arial"
-    },
     "view": {
       "stroke": null
+    },
+    "axis": {
+      "grid": false,
+      "domain": false,
+      "tickSize": 0
+    },
+    "legend": {
+      "orient": "bottom",
+      "direction": "horizontal",
+      "titleFontSize": 11,
+      "labelFontSize": 10
     }
   }
 }

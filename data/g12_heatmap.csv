@@ -1,0 +1,22 @@
+age_group,age_code,parent_profile,count
+0–4 years,C0_4F,Both parents speak English only,718929
+0–4 years,C0_4F,At least one parent uses another language,432278
+0–4 years,C0_4F,English proficiency not stated,5503
+5–9 years,C5_9F,Both parents speak English only,744314
+5–9 years,C5_9F,At least one parent uses another language,423026
+5–9 years,C5_9F,English proficiency not stated,5411
+10–12 years,C10_12F,Both parents speak English only,461279
+10–12 years,C10_12F,At least one parent uses another language,214879
+10–12 years,C10_12F,English proficiency not stated,2737
+13–14 years,C13_14F,Both parents speak English only,306462
+13–14 years,C13_14F,At least one parent uses another language,127125
+13–14 years,C13_14F,English proficiency not stated,1625
+15–17 years,C15_17F,Both parents speak English only,378858
+15–17 years,C15_17F,At least one parent uses another language,157055
+15–17 years,C15_17F,English proficiency not stated,1135
+18–20 years,C18_20F,Both parents speak English only,142656
+18–20 years,C18_20F,At least one parent uses another language,93064
+18–20 years,C18_20F,English proficiency not stated,392
+21–24 years,C21_24F,Both parents speak English only,63367
+21–24 years,C21_24F,At least one parent uses another language,52486
+21–24 years,C21_24F,English proficiency not stated,235

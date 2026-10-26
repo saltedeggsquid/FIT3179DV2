@@ -99,6 +99,42 @@
     {
       "data": {
         "values": [
+          {"state": "WA", "longitude": 121.0, "latitude": -25.5},
+          {"state": "NT", "longitude": 133.5, "latitude": -19.0},
+          {"state": "SA", "longitude": 135.0, "latitude": -30.0},
+          {"state": "QLD", "longitude": 146.0, "latitude": -22.0},
+          {"state": "NSW", "longitude": 147.0, "latitude": -32.5},
+          {"state": "VIC", "longitude": 145.5, "latitude": -36.5},
+          {"state": "TAS", "longitude": 146.5, "latitude": -42.0},
+          {"state": "ACT", "longitude": 149.0, "latitude": -35.5}
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 13,
+        "fontWeight": "bold",
+        "color": "#222222",
+        "align": "center",
+        "baseline": "middle"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "state",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
           {
             "note": "● Each dot represents one SA2 area"
           }

@@ -7,6 +7,9 @@
     }
   },
   "width": "container",
+  "height": {
+      "step": 22
+    },
   "params": [
     {
       "name": "chosenYear",
@@ -87,8 +90,5 @@
         "opacity": 1
       }
     }
-  ],
-  "height": {
-    "step": 22
-  }
+  ]
 }

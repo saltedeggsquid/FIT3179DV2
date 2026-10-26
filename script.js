@@ -1,17 +1,3 @@
-/*
-  Many Stories, One Australia
-  ----------------------------------------
-  The page layout and chart containers are ready.
-  Add each Vega-Lite specification to the matching chart ID below.
-
-  Example:
-  const bumpSpec = { ... };
-  vegaEmbed("#chart-bump", bumpSpec, { actions: false, renderer: "svg" });
-
-  Keep chart specifications in this file or move each one into a separate
-  human-readable .json file in the same repository, as required by the brief.
-*/
-
 const chartConfig = {
   actions: false,
   renderer: "svg",
@@ -47,30 +33,6 @@ async function renderChart(containerId, specificationPath) {
   }
 }
 
-/*
-  Planned chart container IDs:
-  Section 1 — Macro shift
-    chart-bump
-    chart-streamgraph
-
-  Section 2 — Modern mosaic
-    chart-choropleth map
-    chart-dot-density map
-    chart-lollipop chart
-
-  Section 3 — Generational bridge
-    chart-sankey
-    chart-
-    chart-radar
-
-  Section 4 — Cohesion
-    chart-
-    chart-settlement-map
-
-  Add calls once the specifications and cleaned data are ready, for example:
-  renderChart("chart-bump", bumpSpec);
-*/
-
 // Keep the current page scaffold easy to test before chart integration.
 document.addEventListener("DOMContentLoaded", () => {
   renderChart("chart-bump", "charts/chart-01.json");
@@ -80,9 +42,9 @@ document.addEventListener("DOMContentLoaded", () => {
   renderChart("chart-map2", "charts/chart-04.json")
   renderChart("chart-lollipop_chart", "charts/chart-05.json");
 
-  // renderChart("chart-sankey", "charts/chart-06.json");
-  // renderChart("chart-butterfly", "charts/chart-07.json")
-  // renderChart("chart-radar", "charts/chart-08.json")
+  renderChart("chart-sankey", "charts/chart-06.json");
+  renderChart("chart-butterfly", "charts/chart-07.json")
+  renderChart("chart-radar", "charts/chart-08.json")
 
   renderChart("chart-scatterplot", "charts/chart-09.json")
   renderChart("chart-map3", "charts/chart-10.json")
