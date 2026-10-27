@@ -31,8 +31,9 @@
       ],
       "mark": {
         "type": "circle",
-        "color": "#1f5a4d",
-        "opacity": 0.2
+        "opacity": 0.6,
+        "stroke": "#000000",
+        "strokeWidth": 0.3
       },
       "encoding": {
         "longitude": {
@@ -48,13 +49,28 @@
           "type": "quantitative",
           "scale": {
             "type": "sqrt",
-            "range": [5, 500]
+            "range": [8, 500]
           },
           "legend": {
             "title": "Overseas-born residents",
             "format": ",.0f",
-            "symbolType": "circle",
             "orient": "bottom-right"
+          }
+        },
+        "color": {
+          "field": "labour_force_participation_pct",
+          "type": "quantitative",
+          "scale": {
+            "scheme": "greens"
+          },
+          "legend": {
+            "title": "Labour-force participation (%)",
+            "orient": "bottom-left",
+            "format": ".0f",
+            "gradientLength": 250,
+            "gradientThickness": 16,
+            "titleFontSize": 13,
+            "labelFontSize": 10
           }
         },
         "tooltip": [
@@ -67,7 +83,7 @@
             "field": "overseas_born_count",
             "type": "quantitative",
             "title": "Overseas-born residents",
-            "format": ","
+            "format": ",.0f"
           },
           {
             "field": "overseas_born_pct",
@@ -79,12 +95,12 @@
             "field": "total_population",
             "type": "quantitative",
             "title": "Total population",
-            "format": ","
+            "format": ",.0f"
           },
           {
             "field": "labour_force_participation_pct",
             "type": "quantitative",
-            "title": "Labour force participation (%)",
+            "title": "Labour-force participation (%)",
             "format": ".1f"
           }
         ]

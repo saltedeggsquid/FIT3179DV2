@@ -35,17 +35,17 @@ async function renderChart(containerId, specificationPath) {
 
 // Keep the current page scaffold easy to test before chart integration.
 document.addEventListener("DOMContentLoaded", () => {
-  renderChart("chart-bump", "charts/chart-01.json");
-  renderChart("chart-streamgraph", "charts/chart-02.json");
+  renderChart("chart-01", "charts/chart-01.json");
+  renderChart("chart-02", "charts/chart-02.json");
 
-  renderChart("chart-map1", "charts/chart-03.json")
-  renderChart("chart-map2", "charts/chart-04.json")
-  renderChart("chart-lollipop_chart", "charts/chart-05.json");
+  renderChart("chart-03", "charts/chart-03.json")
+  renderChart("chart-04", "charts/chart-04.json")
+  renderChart("chart-05", "charts/chart-05.json");
 
-  renderChart("chart-sankey", "charts/chart-06.json");
-  renderChart("chart-butterfly", "charts/chart-07.json")
-  renderChart("chart-radar", "charts/chart-08.json")
+  renderChart("chart-06", "charts/chart-06.json");
+  renderChart("chart-07", "charts/chart-07.json")
+  renderChart("chart-08", "charts/chart-08.json")
 
-  renderChart("chart-scatterplot", "charts/chart-09.json")
-  renderChart("chart-map3", "charts/chart-10.json")
+  renderChart("chart-09", "charts/chart-09.json")
+  renderChart("chart-10", "charts/chart-10.json")
 });

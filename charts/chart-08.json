@@ -1,309 +1,117 @@
-
 {
-  "$schema": "https://vega.github.io/schema/vega/v6.json",
-  "description": "Cultural activity participation rates by age group, Australia, 2021–22. Source: ABS Cultural and creative activities, Table 4.",
-  "width": 500,
-  "height": 440,
-  "padding": 60,
-  "autosize": {
-    "type": "none",
-    "contains": "padding"
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "width": "container",
+  "height": 400,
+  "padding": {
+    "left": 8,
+    "right": 8,
+    "top": 8,
+    "bottom": 8
   },
-  "signals": [
+  "data": {
+    "url": "data/g12_heatmap.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+  "transform": [
     {
-      "name": "radius",
-      "update": "min(width, height) / 2 - 35"
-    },
-    {
-      "name": "maxRate",
-      "value": 25
+      "filter": "datum.age_group !== 'All dependent children'"
     }
   ],
-  "data": [
-    {
-      "name": "table",
-      "url": "data/cultural_participation_by_age_radar.csv",
-      "format": {
-        "type": "csv",
-        "parse": {
-          "participation_rate": "number"
-        }
-      },
-      "transform": [
-        {
-          "type": "formula",
-          "expr": "datum.participation_rate",
-          "as": "value"
-        }
-      ]
-    },
-    {
-      "name": "keys",
-      "source": "table",
-      "transform": [
-        {
-          "type": "aggregate",
-          "groupby": ["activity"]
-        },
-        {
-          "type": "formula",
-          "expr": "indexof(['Singing/playing an instrument','Dancing','Writing any fiction or non-fiction','Visual art activities','Craft activities'], datum.activity)",
-          "as": "axisIndex"
-        },
-        {
-          "type": "collect",
-          "sort": {
-            "field": "axisIndex",
-            "order": "ascending"
-          }
-        }
-      ]
-    },
-    {
-      "name": "gridValues",
-      "transform": [
-        {
-          "type": "sequence",
-          "start": 5,
-          "stop": 21,
-          "step": 5,
-          "as": "rate"
-        },
-        {
-          "type": "formula",
-          "expr": "datum.rate / maxRate * radius",
-          "as": "r"
-        }
-      ]
-    }
-  ],
-  "scales": [
-    {
-      "name": "angular",
-      "type": "point",
-      "range": {
-        "signal": "[-PI / 2, 3 * PI / 2]"
-      },
-      "padding": 0.5,
-      "domain": {
-        "data": "keys",
-        "field": "activity",
-        "sort": {
-          "field": "axisIndex",
-          "op": "min",
-          "order": "ascending"
-        }
-      }
-    },
-    {
-      "name": "radial",
-      "type": "linear",
-      "range": [0, {"signal": "radius"}],
-      "domain": [0, 25],
-      "zero": true,
-      "nice": false
-    },
-    {
-      "name": "color",
+  "mark": {
+    "type": "rect",
+    "cornerRadius": 3,
+    "stroke": "#ffffff",
+    "strokeWidth": 2
+  },
+  "encoding": {
+    "x": {
+      "field": "parent_profile",
       "type": "ordinal",
-      "domain": [
-        "15–24 years",
-        "25–34 years",
-        "35–44 years",
-        "45–54 years",
-        "55–64 years",
-        "65 years and over"
+      "sort": [
+        "Both parents speak English only",
+        "At least one parent uses another language",
+        "English proficiency not stated"
       ],
-      "range": [
-        "#496B50",
-        "#B86F45",
-        "#84966A",
-        "#795548",
-        "#A9BDB0",
-        "#C4A85A"
-      ]
-    }
-  ],
-  "encode": {
-    "enter": {
-      "x": {"signal": "width / 2"},
-      "y": {"signal": "height / 2"}
-    }
+      "title": "Parents’ English proficiency profile",
+      "axis": {
+        "labelAngle": 0,
+        "labelLimit": 220,
+        "labelFontSize": 10,
+        "labelLineHeight": 12,
+        "labelPadding": 8,
+        "titlePadding": 18,
+        "labelExpr": "datum.label === 'Both parents speak English only' ? 'Both parents speak English only' : datum.label === 'At least one parent uses another language' ? 'At least one parent uses another language' : 'English proficiency not stated'"
+      }
+    },
+    "y": {
+      "field": "age_group",
+      "type": "ordinal",
+      "sort": [
+        "0–4 years",
+        "5–9 years",
+        "10–12 years",
+        "13–14 years",
+        "15–17 years",
+        "18–20 years",
+        "21–24 years",
+        "All dependent children"
+      ],
+      "title": "Age of dependent children",
+      "axis": {
+        "labelFontSize": 11,
+        "titlePadding": 10
+      }
+    },
+    "color": {
+      "field": "count",
+      "type": "quantitative",
+      "scale": {
+        "scheme": "tealblues"
+      },
+      "legend": {
+        "title": "Number of children",
+        "format": ",.0f",
+        "gradientLength": 400,
+        "gradientThickness": 16,
+        "gradientLabelLimit": 100,
+        "titleFontSize": 13,
+        "labelFontSize": 10,
+        "offset": 10
+      }
+    },
+    "tooltip": [
+      {
+        "field": "age_group",
+        "title": "Children’s age"
+      },
+      {
+        "field": "parent_profile",
+        "title": "Parent profile"
+      },
+      {
+        "field": "count",
+        "type": "quantitative",
+        "title": "Dependent children",
+        "format": ",.0f"
+      }
+    ]
   },
-  "marks": [
-    {
-      "type": "group",
-      "name": "categories",
-      "zindex": 1,
-      "from": {
-        "facet": {
-          "data": "table",
-          "name": "facet",
-          "groupby": ["age_group"]
-        }
-      },
-      "marks": [
-        {
-          "type": "line",
-          "name": "category-line",
-          "from": {"data": "facet"},
-          "sort": {
-            "field": "activity",
-            "order": "ascending",
-            "op": "min"
-          },
-          "encode": {
-            "update": {
-              "interpolate": {"value": "linear-closed"},
-              "x": {
-                "signal": "scale('radial', datum.value) * cos(scale('angular', datum.activity))"
-              },
-              "y": {
-                "signal": "scale('radial', datum.value) * sin(scale('angular', datum.activity))"
-              },
-              "stroke": {
-                "scale": "color",
-                "field": "age_group"
-              },
-              "strokeWidth": {"value": 2},
-              "strokeOpacity": {"value": 0.9},
-              "fill": {
-                "scale": "color",
-                "field": "age_group"
-              },
-              "fillOpacity": {"value": 0.04}
-            }
-          }
-        },
-        {
-          "type": "symbol",
-          "name": "category-points",
-          "from": {"data": "facet"},
-          "encode": {
-            "update": {
-              "x": {
-                "signal": "scale('radial', datum.value) * cos(scale('angular', datum.activity))"
-              },
-              "y": {
-                "signal": "scale('radial', datum.value) * sin(scale('angular', datum.activity))"
-              },
-              "fill": {
-                "scale": "color",
-                "field": "age_group"
-              },
-              "size": {"value": 35},
-              "tooltip": {
-                "signal": "{'Age group': datum.age_group, 'Activity': datum.activity, 'Participation rate': format(datum.value, '.1f') + '%'}"
-              }
-            }
-          }
-        }
-      ]
-    },
-    {
-      "type": "rule",
-      "name": "radial-grid",
-      "from": {"data": "keys"},
-      "zindex": 0,
-      "encode": {
-        "update": {
-          "x": {"value": 0},
-          "y": {"value": 0},
-          "x2": {
-            "signal": "radius * cos(scale('angular', datum.activity))"
-          },
-          "y2": {
-            "signal": "radius * sin(scale('angular', datum.activity))"
-          },
-          "stroke": {"value": "#c8c8c8"},
-          "strokeWidth": {"value": 1}
-        }
-      }
-    },
-    {
-      "type": "text",
-      "name": "key-label",
-      "from": {"data": "keys"},
-      "zindex": 2,
-      "encode": {
-        "update": {
-          "x": {
-            "signal": "(radius + 12) * cos(scale('angular', datum.activity))"
-          },
-          "y": {
-            "signal": "(radius + 12) * sin(scale('angular', datum.activity))"
-          },
-          "text": {"field": "activity"},
-          "align": {
-            "signal": "cos(scale('angular', datum.activity)) > 0.25 ? 'left' : cos(scale('angular', datum.activity)) < -0.25 ? 'right' : 'center'"
-          },
-          "baseline": {
-            "signal": "sin(scale('angular', datum.activity)) > 0.25 ? 'top' : sin(scale('angular', datum.activity)) < -0.25 ? 'bottom' : 'middle'"
-          },
-          "limit": {"value": 155},
-          "fontSize": {"value": 10},
-          "fill": {"value": "#333333"}
-        }
-      }
-    },
-    {
-      "type": "line",
-      "name": "outer-line",
-      "from": {"data": "keys"},
-      "sort": {
-        "field": "axisIndex",
-        "order": "ascending"
-      },
-      "encode": {
-        "update": {
-          "interpolate": {"value": "linear-closed"},
-          "x": {
-            "signal": "radius * cos(scale('angular', datum.activity))"
-          },
-          "y": {
-            "signal": "radius * sin(scale('angular', datum.activity))"
-          },
-          "stroke": {"value": "#c8c8c8"},
-          "strokeWidth": {"value": 1},
-          "fill": {"value": null}
-        }
-      }
-    },
-    {
-      "type": "text",
-      "name": "rate-labels",
-      "from": {"data": "gridValues"},
-      "encode": {
-        "update": {
-          "x": {"value": 5},
-          "y": {
-            "signal": "-datum.r"
-          },
-          "text": {
-            "signal": "datum.rate + '%'"
-          },
-          "fontSize": {"value": 8},
-          "fill": {"value": "#666666"},
-          "align": {"value": "left"},
-          "baseline": {"value": "bottom"}
-        }
-      }
-    }
-  ],
-  "legends": [
-    {
-      "fill": "color",
-      "title": "Age group",
-      "orient": "bottom",
-      "direction": "horizontal",
-      "columns": 3,
-      "labelFontSize": 10,
-      "titleFontSize": 11
-    }
-  ],
   "config": {
     "view": {
       "stroke": null
+    },
+    "axis": {
+      "grid": false,
+      "domain": false,
+      "tickSize": 0
+    },
+    "legend": {
+      "orient": "bottom",
+      "direction": "horizontal",
+      "titleFontSize": 11,
+      "labelFontSize": 10
     }
   }
 }

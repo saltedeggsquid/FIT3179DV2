@@ -73,7 +73,7 @@ h1 em { color: var(--green); font-weight: 500; }
 .chart-placeholder strong { color: #4f6259; font: 600 13px var(--sans); }
 .chart-placeholder small { max-width: 260px; font-size: 10px; line-height: 1.5; }
 .chart-caption { display: flex; justify-content: space-between; gap: 12px; margin-top: 15px; color: #7b8880; font-size: 9px; }
-.section-takeaway { max-width: 1172px; margin: 27px auto 0; color: var(--green); font: italic 500 15px var(--sans); }
+.section-takeaway { max-width: 1172px; margin: 27px 0 0; color: var(--green); font: italic 500 15px var(--sans); text-align: left;}
 .takeaway-mark { color: var(--coral); font: normal 18px var(--sans); margin-right: 8px; }
 .map-note-card { justify-content: center; background: var(--green-dark); color: var(--white); padding: 32px; }
 .note-kicker { color: var(--lime); }

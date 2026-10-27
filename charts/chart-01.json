@@ -17,9 +17,9 @@
     "type": "line",
     "point": {
       "filled": true,
-      "size": 45
+      "size": 60
     },
-    "strokeWidth": 2.5
+    "strokeWidth": 3
   },
   "encoding": {
     "x": {

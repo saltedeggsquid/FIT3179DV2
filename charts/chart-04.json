@@ -51,14 +51,13 @@
           "as": "selected_pct"
         },
         {
-          "filter": "isValid(datum.longitude) && isValid(datum.latitude) && datum.selected_count > 0"
+          "filter": "isValid(datum.longitude) && isValid(datum.latitude) && isValid(datum.selected_count) && datum.selected_count > 0"
         }
       ],
       "mark": {
         "type": "circle",
-        "color": "#1f5a4d",
-        "size": 7,
-        "opacity": 0.7
+        "color": "#9F9991",
+        "opacity": 0.3
       },
       "encoding": {
         "longitude": {
@@ -69,6 +68,21 @@
           "field": "latitude",
           "type": "quantitative"
         },
+        "size": {
+          "field": "selected_count",
+          "type": "quantitative",
+          "scale": {
+            "type": "sqrt",
+            "range": [8, 600]
+          },
+          "legend": {
+            "title": "Number of speakers",
+            "format": ",.0f",
+            "orient": "bottom-right",
+            "symbolType": "circle",
+            "values": [100, 1000, 5000, 10000]
+          }
+        },
         "tooltip": [
           {
             "field": "SA2_NAME21",
@@ -78,8 +92,8 @@
           {
             "field": "selected_count",
             "type": "quantitative",
-            "title": "Speakers",
-            "format": ","
+            "title": "Number of speakers",
+            "format": ",.0f"
           },
           {
             "field": "selected_pct",
@@ -91,7 +105,7 @@
             "field": "total_population",
             "type": "quantitative",
             "title": "Total population",
-            "format": ","
+            "format": ",.0f"
           }
         ]
       }
@@ -131,27 +145,11 @@
           "type": "nominal"
         }
       }
-    },
-    {
-      "data": {
-        "values": [
-          {
-            "note": "● Each dot represents one SA2 area"
-          }
-        ]
-      },
-      "mark": {
-        "type": "text",
-        "align": "left",
-        "baseline": "middle",
-        "fontSize": 12,
-        "color": "#555555"
-      },
-      "encoding": {
-        "x": {"value": 20},
-        "y": {"value": 30},
-        "text": {"field": "note"}
-      }
     }
-  ]
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    }
+  }
 }
